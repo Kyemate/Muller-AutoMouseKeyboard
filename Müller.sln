@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Müller", "Müller\Müller.csproj", "{7D5B8F11-6EB0-4CC8-964D-F91A39588DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Müller Studio", "Müller Studio\Müller Studio.csproj", "{EAA60452-97DE-479D-83F0-A61B999AFC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D5B8F11-6EB0-4CC8-964D-F91A39588DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5B8F11-6EB0-4CC8-964D-F91A39588DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5B8F11-6EB0-4CC8-964D-F91A39588DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5B8F11-6EB0-4CC8-964D-F91A39588DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA60452-97DE-479D-83F0-A61B999AFC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA60452-97DE-479D-83F0-A61B999AFC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA60452-97DE-479D-83F0-A61B999AFC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA60452-97DE-479D-83F0-A61B999AFC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B7EB31-96E5-44E9-920B-E82E0D0C0E90}
+	EndGlobalSection
+EndGlobal

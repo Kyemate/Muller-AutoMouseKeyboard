@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>default-1.ico</ApplicationIcon>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SingleThreadInputPlay - don't compile.cs" />
+    <Compile Remove="SwitchKeycodes - don't compile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="default-1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="SingleThreadInputPlay - don%27t compile.cs" />
+    <None Include="SwitchKeycodes - don%27t compile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="H.InputSimulator" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Gma.System.MouseKeyHook">
+      <HintPath>..\..\globalmousekeyhook-vNext\MouseKeyHook\bin\Release\net6.0-windows\Gma.System.MouseKeyHook.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
